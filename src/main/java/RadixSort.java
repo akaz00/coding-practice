@@ -13,7 +13,7 @@ public class RadixSort {
 		for (int item : input) {
 			maxDigit = Math.max(maxDigit, item);
 		}
-		for (int i = 1; i <= 100000000 /* 1 billion */; i *= 10) {
+		for (int i = 1; i <= maxDigit; i *= 10) {
 			Integer[][] arr = new Integer[10][input.length];
 			for (int j = 0; j < input.length; j++) {
 				int digit = (input[j] / i) % 10;

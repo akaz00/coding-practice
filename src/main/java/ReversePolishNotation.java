@@ -18,7 +18,7 @@ import org.junit.Test;
  * 
  * @See https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/
  */
-public class EvaluateReversePolishNotation {
+public class ReversePolishNotation {
 	Set<String> operators = new HashSet<String>(Arrays.asList("+", "-", "*",
 			"/"));
 
